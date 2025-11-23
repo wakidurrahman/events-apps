@@ -12,8 +12,12 @@ Practicing full-stack development using MySQL, Knex, and GraphQL with Node.js fo
 - graphql
 - dotenv
 - jest
+- Apollo
+- express
 
 ### Client
 
 - ReactJs
 - AG-Grid
+- React Hook Form + Zod
+- Material-ui for
