@@ -1,0 +1,35 @@
+{
+  "name": "shop-shine-monorepo",
+  "version": "1.0.0",
+  "description": "Full-stack e-commerce application with React, GraphQL, and MySQL",
+  "private": true,
+  "workspaces": [
+    "api",
+    "client",
+    "database"
+  ],
+  "scripts": {
+    "install:all": "npm install && cd api && npm install && cd ../client && npm install && cd ../database && npm install",
+    "dev:api": "cd api && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:client\"",
+    "build:api": "cd api && npm run build",
+    "build:client": "cd client && npm run build",
+    "build": "npm run build:api && npm run build:client",
+    "db:migrate": "cd database && npm run migrate:latest",
+    "db:seed": "cd database && npm run seed:run",
+    "db:setup": "npm run db:migrate && npm run db:seed"
+  },
+  "keywords": [
+    "e-commerce",
+    "react",
+    "graphql",
+    "mysql",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
