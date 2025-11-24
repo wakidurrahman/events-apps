@@ -1,10 +1,10 @@
-# Shop Shine - E-Commerce Application
+# ShopShine - E-Commerce Application
 
 A full-stack e-commerce platform built with modern web technologies. This project demonstrates best practices in full-stack development with React, GraphQL, Node.js, and MySQL.
 
 ## 🚀 Overview
 
-Shop Shine is a complete e-commerce management system featuring product catalog, customer management, order processing, and payment tracking. Built with a modern tech stack, it provides a robust foundation for scalable e-commerce applications.
+ShopShine is a complete e-commerce management system featuring product catalog, customer management, order processing, and payment tracking. Built with a modern tech stack, it provides a robust foundation for scalable e-commerce applications.
 
 ## 📋 Table of Contents
 
