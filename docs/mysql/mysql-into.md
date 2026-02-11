@@ -12,14 +12,14 @@ MySQL is a popular relational database management system that allows you to stor
 
 ### Query
 
--- Create a new MySQL user with administrative privileges
--- This creates a user account 'wakidurRoot' that can only connect from localhost
--- The user is assigned a password and granted full privileges on all databases and tables
--- WITH GRANT OPTION allows this user to grant privileges to other users
+- Create a new MySQL user with administrative privileges
+- This creates a user account 'xxxxxx' that can only connect from localhost
+- The user is assigned a password and granted full privileges on all databases and tables
+- WITH GRANT OPTION allows this user to grant privileges to other users
 
 ```sql
 CREATE USER 'wakidurRoot'@'localhost' IDENTIFIED BY '713470Wa';
-GRANT ALL PRIVILEGES ON _._ TO 'wakidurRoot'@'localhost' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON _._ TO 'xxxxx'@'localhost' WITH GRANT OPTION;
 ```
 
 #### user + host
@@ -81,7 +81,7 @@ DROP TABLE IF EXISTS test;
 
 ### 2. Overview of SQL
 
-#### - 2.1. A brief overview of SQL
+#### 2.1. A brief overview of SQL
 
 - SQL Statement
   - Example: `SELECT * FROM users;`
@@ -128,7 +128,7 @@ SELECT * FROM Country ORDER BY Name LIMIT 10, 5;
 ```sql
 USE world;
 
-SELECT \* FROM Country ORDER BY Name;
+SELECT * FROM Country ORDER BY Name;
 
 SELECT Name, Code, Region, Population FROM Country ORDER BY Code;
 
